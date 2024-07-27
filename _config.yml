@@ -1,6 +1,8 @@
 title: Huan Phan-Van Portfolio
-description: With over three years of teaching and researching experience in robotics and mechatronics, I am an instructor at Southern Illinois University Edwardsville (SIUE), where I share my passion and knowledge with students and colleagues.
-I am passionate about developing innovative and practical solutions for real-world challenges using robotics and mechatronics.
+description: #> # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
 # permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -9,9 +11,9 @@ url: "https://huantianh.github.io" # the base hostname & protocol for your site,
 # Author Settings
 author: Huan Phan-Van # add your name
 author-img: huan_phanvan.jpg # add your photo
-about-author: Instructor at SIUE # add description
+about-author: PhD Student at SIUE # add description
 social-facebook: huantianh # add your Facebook handle
-social-github: huantianh # add your Github handle
+social-github: Huan Phan Van # add your Github handle
 social-linkedin: huanphanvan # add your Linkedin handle
 social-email: huphan@siue.edu # add your Email address
 
