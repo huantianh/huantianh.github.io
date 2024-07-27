@@ -1,7 +1,5 @@
 title: Huan Phan-Van Portfolio
-description: #> # this means to ignore newlines until "baseurl:"
-With over three years of teaching and researching experience in robotics and mechatronics, I am an instructor at Southern Illinois University Edwardsville (SIUE), where I share my passion and knowledge with students and colleagues. 
-I am passionate about developing innovative and practical solutions for real-world challenges using robotics and mechatronics.
+description: I am Huan # this means to ignore newlines until "baseurl:"
 
 # permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
