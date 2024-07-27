@@ -4,7 +4,7 @@ I am passionate about developing innovative and practical solutions for real-wor
 
 # permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://huanpv.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://huantianh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author: Huan Phan-Van # add your name
