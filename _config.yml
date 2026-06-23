@@ -1,31 +1,40 @@
-title: Huan Phan-Van Portfolio
-description: I am Huan # this means to ignore newlines until "baseurl:"
+title: Huan Phan-Van, Ph.D.
+description: Personal academic website of Huan Phan-Van, Ph.D., Assistant Professor of Robotics and Mechatronics Engineering at Randolph College.
 
-# permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://huantianh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# Site Settings
+
+baseurl: ""
+url: "https://huantianh.github.io"
 
 # Author Settings
-author: Huan Phan-Van # add your name
-author-img: huan_phanvan.jpg # add your photo
-about-author: Instructor at SIUE # add description
-social-facebook: huantianh # add your Facebook handle
-social-github: huantianh # add your Github handle
-social-linkedin: huanphanvan # add your Linkedin handle
-social-email: huphan@siue.edu # add your Email address
+
+author: Huan Phan-Van
+author-img: huan_phanvan.jpg
+about-author: Assistant Professor of Robotics and Mechatronics Engineering at Randolph College. My research interests include time-delay systems, Lyapunov-Krasovskii methods, feedback control, robotics, and mechatronics education.
+
+# Social Links
+
+social-facebook: huantianh
+social-github: huantianh
+social-linkedin: huanphanvan
+social-email: hphan206@randolphcollege.edu(mailto:your-randolph-email@randolphcollege.edu)
 
 # Disqus
-discus-identifier: Red # add your discus identifier
+
+discus-identifier:
 
 # Tracker
-analytics: # Google Analytics
+
+analytics:
 
 # Build Settings
+
 markdown: kramdown
 plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
+
+* jekyll-sitemap
+* jekyll-paginate
+* jemoji
 
 paginate: 8
 paginate_path: "/page/:num"
