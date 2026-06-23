@@ -10,14 +10,14 @@ url: "https://huantianh.github.io"
 
 author: Huan Phan-Van
 author-img: huan_phanvan.jpg
-about-author: Assistant Professor of Robotics and Mechatronics Engineering at Randolph College. My research interests include time-delay systems, Lyapunov-Krasovskii methods, feedback control, robotics, and mechatronics education.
+about-author: "Assistant Professor of Robotics and Mechatronics Engineering at Randolph College. My research interests include time-delay systems, Lyapunov-Krasovskii methods, feedback control, robotics, and mechatronics education."
 
 # Social Links
 
 social-facebook: huantianh
 social-github: huantianh
 social-linkedin: huanphanvan
-social-email: hphan206@randolphcollege.edu(mailto:your-randolph-email@randolphcollege.edu)
+social-email: [hphan206@randolphcollege.edu](mailto:hphan206@randolphcollege.edu)
 
 # Disqus
 
