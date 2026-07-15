@@ -204,6 +204,12 @@ li {
   margin-bottom: 4px;
 }
 
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
 /* Badges */
 
 .badges {
