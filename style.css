@@ -593,3 +593,36 @@ blockquote {
 .citation-list em {
   color: #c9d1d9;
 }
+
+/* Course material layout */
+.material-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.readme-content section {
+  margin-top: 28px;
+}
+
+.readme-content section:first-of-type {
+  margin-top: 18px;
+}
+
+.readme-content section h2 {
+  margin-bottom: 14px;
+}
+
+.material-grid a {
+  margin: 0;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .material-grid {
+    grid-template-columns: 1fr;
+  }
+}
