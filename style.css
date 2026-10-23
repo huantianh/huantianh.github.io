@@ -653,20 +653,43 @@ blockquote {
   }
 }
 
-.week-material-card {
-  border: 1px solid #d0d7de;
+/* Lecture cards */
+
+.lecture-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.lecture-card {
+  border: 1px solid #30363d;
   border-radius: 6px;
-  padding: 12px 14px;
-  background: #ffffff;
+  background: #161b22;
+  padding: 14px 16px;
+  min-height: 78px;
 }
 
-.week-material-card h3 {
-  margin: 0 0 8px 0;
+.lecture-card h3 {
+  margin: 0 0 10px 0;
   font-size: 15px;
-  color: #24292f;
+  color: #e6edf3;
 }
 
-.week-material-card a {
-  display: block;
-  margin-top: 5px;
+.lecture-card a {
+  display: inline-block;
+  margin-right: 14px;
+  margin-top: 3px;
+  font-size: 14px;
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.lecture-card a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .lecture-grid {
+    grid-template-columns: 1fr;
+  }
 }
