@@ -608,40 +608,6 @@ blockquote {
   align-items: center;
 }
 
-.material-item-with-code {
-  min-height: 44px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  border: 1px solid #30363d;
-  border-radius: 6px;
-  background: #161b22;
-  padding: 10px 14px;
-  justify-content: space-between;
-}
-
-.material-item-with-code a {
-  display: block;
-  min-height: 0;
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background: transparent;
-  color: #58a6ff;
-  text-decoration: none;
-}
-
-.material-item-with-code a:hover {
-  background: transparent;
-  text-decoration: underline;
-}
-
-.material-item-with-code .code-link {
-  margin-left: 15px;
-  font-size: 13px;
-}
-
 .readme-content section {
   margin-top: 30px;
 }
@@ -656,30 +622,31 @@ blockquote {
   }
 }
 
-/* Course material cards */
+/* Shared course layout */
 
-.course-material-grid {
+.week-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
 }
 
-.course-material-card {
+.week-card {
   border: 1px solid #30363d;
   border-radius: 6px;
   background: #161b22;
   padding: 14px 16px;
   min-height: 72px;
+  box-sizing: border-box;
 }
 
-.course-material-card h3 {
+.week-card h3 {
   margin: 0 0 10px 0;
   font-size: 15px;
   font-weight: 600;
   color: #e6edf3;
 }
 
-.course-material-card a {
+.week-card a {
   display: inline-block;
   margin-right: 16px;
   margin-top: 3px;
@@ -688,12 +655,12 @@ blockquote {
   text-decoration: none;
 }
 
-.course-material-card a:hover {
+.week-card a:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 700px) {
-  .course-material-grid {
+  .week-grid {
     grid-template-columns: 1fr;
   }
 }
