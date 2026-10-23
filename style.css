@@ -622,74 +622,44 @@ blockquote {
   }
 }
 
-/* Lab cards */
+/* Course material cards */
 
-.lab-grid {
+.course-material-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
 }
 
-.lab-card {
-  border: 1px solid #30363d;
-  border-radius: 6px;
-  padding: 14px 16px;
-  background: #0d1117;
-}
-
-.lab-card h3 {
-  margin: 0 0 10px 0;
-  font-size: 16px;
-}
-
-.lab-card a {
-  display: block;
-  margin-top: 6px;
-}
-
-@media (max-width: 700px) {
-  .lab-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Lecture cards */
-
-.lecture-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-}
-
-.lecture-card {
+.course-material-card {
   border: 1px solid #30363d;
   border-radius: 6px;
   background: #161b22;
   padding: 14px 16px;
-  min-height: 78px;
+  min-height: 72px;
 }
 
-.lecture-card h3 {
+.course-material-card h3 {
   margin: 0 0 10px 0;
   font-size: 15px;
+  font-weight: 600;
   color: #e6edf3;
 }
 
-.lecture-card a {
+.course-material-card a {
   display: inline-block;
-  margin-right: 14px;
+  margin-right: 16px;
   margin-top: 3px;
-  font-size: 14px;
   color: #58a6ff;
+  font-size: 14px;
   text-decoration: none;
 }
 
-.lecture-card a:hover {
+.course-material-card a:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 700px) {
-  .lecture-grid {
+  .course-material-grid {
     grid-template-columns: 1fr;
   }
 }
