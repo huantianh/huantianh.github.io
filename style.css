@@ -601,11 +601,45 @@ blockquote {
   gap: 10px;
 }
 
-.material-grid a {
+.material-grid > a {
   margin: 0;
   min-height: 44px;
   display: flex;
   align-items: center;
+}
+
+.material-item-with-code {
+  min-height: 44px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  background: #161b22;
+  padding: 10px 14px;
+  justify-content: space-between;
+}
+
+.material-item-with-code a {
+  display: block;
+  min-height: 0;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.material-item-with-code a:hover {
+  background: transparent;
+  text-decoration: underline;
+}
+
+.material-item-with-code .code-link {
+  margin-left: 15px;
+  font-size: 13px;
 }
 
 .readme-content section {
